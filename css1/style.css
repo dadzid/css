@@ -18,3 +18,8 @@ span,
 div {
     color: chocolate;
 }
+
+/* selektor bezposredniego elementu potomnego*/
+li > a {
+    color:forestgreen;
+}
