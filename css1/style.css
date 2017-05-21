@@ -33,3 +33,25 @@ div a {
 h2+h3 {
     color: fuchsia;
 }
+
+h4~p {
+    color: firebrick
+}
+
+ul>li:not(.last) {
+    color: darkseagreen;
+}
+
+
+/*selektor kolejengo elementu potomnego  (odd parzystke)  */
+
+ul>ol:nth-child(3) {
+    color: chartreuse;
+}
+
+
+
+
+
+
+
