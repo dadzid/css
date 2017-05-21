@@ -19,7 +19,17 @@ div {
     color: chocolate;
 }
 
+
 /* selektor bezposredniego elementu potomnego*/
-li > a {
-    color:forestgreen;
+
+li>a {
+    color: forestgreen;
+}
+
+div a {
+    color: darksalmon;
+}
+
+h2+h3 {
+    color: fuchsia;
 }
